@@ -1,10 +1,5 @@
----
-
-### **Terraform End-to-End on GCP 🚀**  
+## **Terraform End-to-End on GCP 🚀**  
 📌 **Automate Infrastructure on Google Cloud with Terraform**  
-
-![Terraform + GCP](https://www.datocms-assets.com/2885/1620155111-blog-terraform.png?auto=format)  
-
 ---
 
 ## 🌟 **About This Project**  
