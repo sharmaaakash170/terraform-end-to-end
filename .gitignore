@@ -1,0 +1,53 @@
+# Ignore Terraform state files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+
+# Ignore override files as they are usually used to override resources locally and are not meant to be shared
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore .terraform.lock.hcl file
+.terraform.lock.hcl
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore sensitive files (e.g., GCP keys)
+*.json
+*.key
+*.pem
+*.cer
+*.crt
+*.pfx
+*.p12
+
+# Ignore environment-specific files
+.env
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore local Terraform directories
+**/.terraform/
+**/terraform.tfstate.d/
+
+# Ignore log files
+*.log
+
+# Ignore any other temporary files
+*.tmp
+*.temp
+
+# Ignore any other hidden files
+.*
+!.gitignore
+gcp-key.json
